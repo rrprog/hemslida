@@ -19,7 +19,7 @@ h4 {
 }
 
 .bilder {
-
+    display: flex;
 }
 
 .bilder img {
