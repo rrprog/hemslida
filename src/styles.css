@@ -21,4 +21,10 @@ h4 {
 img {
     display: block;
     border: medium dashed rgb(167, 18, 117);
+    padding: 10px;
+    width: 450px;
+    height: 450px;
+    box-sizing: border-box;
+    margin: 275px 0px;
+    
 }
