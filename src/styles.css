@@ -1,25 +1,5 @@
-h1 {
-    color: red;
-}
-
-h2 {
-    color:blueviolet;
-   }
-
-h3 {
-    color: coral;
-   }
-
-h5 {
-    color: chartreuse;
-}
-
-h4 {
-    color: deeppink;
-}
-
 .bilder {
-
+    display: flex;
 }
 
 .bilder img {
