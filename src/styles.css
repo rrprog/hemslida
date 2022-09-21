@@ -20,4 +20,5 @@ h4 {
 
 img {
     display: block;
+    border: medium dashed rgb(167, 18, 117);
 }
