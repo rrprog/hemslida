@@ -16,3 +16,7 @@
     box-sizing: border-box;
     
 }
+
+.katten img {
+    order (-1);
+    }
