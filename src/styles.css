@@ -1,6 +1,12 @@
 .bilder {
     display: flex;
+    height: 1500px;
+    flex-direction: column;
+    align-items: flex-end;
+
+
 }
+
 
 .bilder img {
     display: block;
