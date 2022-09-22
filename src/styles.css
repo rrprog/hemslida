@@ -5,18 +5,19 @@
     align-items: flex-end;
     justify-content: space-between;
     border: 10px solid red;
-
 }
-
 
 .bilder img {
     display: block;
     width: 300px;
     height: 300px;
     box-sizing: border-box;
-    
 }
 
 .katten {
     order: -1;
-    }
+}
+
+h1 {color: brown ;
+    size: 42px;
+}
