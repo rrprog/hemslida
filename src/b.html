@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olika bakgrunder</title>
+        <style>
+            .box {
+                display: flex;
+                height: 1000px;
+                width: 1500px;
+            }
+
+            .item {
+                height: 300px;
+                width: 300px;
+                border: 2px solid red;
+                background: green;
+                box-sizing: border-box;
+            }
+
+            .one {
+                background: radial-gradient(crimson, skyblue);;
+            }
+
+            .two {
+                background: no-repeat center url(https://www.fillmurray.com/1000/1000);
+                /* background-position: center; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .two h1 {
+                margin: 0;
+                color: rgb(240, 230, 210);
+            }
+
+            .three {
+                background: #0F0F0F;
+            } 
+
+            .four {
+                background: rgb(255, 255, 0)
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="item one">
+
+            </div>
+            <div class="item two">
+                <h1>BILL</h1>
+                <h1>Murray</h1>
+            </div>
+            <div class="item three">
+
+            </div>
+            <div class="item four">
+
+            </div>
+        </div>
+    </body>
+</html>
