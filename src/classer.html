@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+            .second, .third {
+                border-top: 5px solid black;
+            }
+
+            .good li + li {
+                border-top: 5px solid red;
+            }
+
+            .good li + ul {
+                color: pink;
+            }
+
+            .good li:last-child {
+                border-bottom: 10px dashed orange;
+            }
+
+            .good li:nth-child(3) {
+                border-bottom: 10px solid brown;
+            }
+
+            ul.good {
+                padding: 0;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <ul class="good">
+            <li>
+                ett
+            </li>
+            <!-- ---- -->
+            <li>
+                tva
+            </li>
+            <!-- ---- -->
+            <li>
+                tre
+            </li>
+            <ul>
+                <li>foo1</li>
+                <li>foo2</li>
+                <li>foo3</li>
+                <li>foo4</li>
+                <li>foo5</li>
+                <li>foo6</li>
+                <!-- ----- -->
+            </ul>
+            <ul>
+                <li>fxx1</li>
+                <li>fxx2</li>
+                <li>fxx3</li>
+                <li>fxx4</li>
+                <li>fxx5</li>
+                <li>fxx6</li>
+            </ul>
+            <!-- ----- -->
+        </ul>
+        </ul>
+        <ul class="bad">
+            <li class="first">
+                ett
+            </li>
+            <li class="second">
+                tva
+            </li>
+            <li class="third">
+                tre
+            </li>
+           
+        </ul>
+
+    </body>
+</html>

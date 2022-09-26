@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .outer {
+                height: 10000px;
+                width: 1000px;
+                background: rgb(240, 240, 240);
+            }
+
+            .inner {
+                position: relative;
+                left: 100px;
+                top: 100px;
+                height: 500px;
+                width: 500px;
+                background: rgb(100, 40, 240);
+            }
+
+            .mini {
+                height: 250px;
+                width: 250px;
+                background: rgb(0, 240, 40);
+                position: fixed;
+                top: 500px;
+                z-index: 200;
+            }
+            .mini2 {
+                height: 250px;
+                width: 250px;
+                background: rgb(23, 40, 40);
+                position: absolute;
+                top: 550px;
+                left: 50px;
+                z-index: 100;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="mini2">
+
+            </div>
+            <div class="inner">
+                <div class="mini">
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="article">
+            <h1>Rubrik</h1>
+            <img scr=""/>
+            <p>Innehall....</p>
+        </div>
+    </body>
+</html>
